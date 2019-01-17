@@ -5,4 +5,5 @@ This is my study about *Data Structure and Algorithm*. This book contains the ch
    2. [Link List](https://github.com/lwsdegithub/The-Interest-Algorithm-C-/blob/master/Chapter1_BaseDataStructure/2_LinkList.cpp)
    3. [Stack](https://github.com/lwsdegithub/The-Interest-Algorithm-C-/blob/master/Chapter1_BaseDataStructure/3_Stack.cpp)
    4. [Queue](https://github.com/lwsdegithub/The-Interest-Algorithm-C-/blob/master/Chapter1_BaseDataStructure/4_Queue.cpp)
+   5. [HashTable](https://github.com/lwsdegithub/The-Interest-Algorithm-C-/blob/master/Chapter1_BaseDataStructure/5_HashTable.cpp)
 
