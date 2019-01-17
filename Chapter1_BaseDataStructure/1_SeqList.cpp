@@ -29,7 +29,7 @@ template<typename DataType> class SeqList{
         bool changeElement(int location,DataType data);
         void showList(){
             for(int i=0;i<=length-1;i++){
-                std::cout<<elements[i];
+                std::cout<<elements[i]<<",";
             }
             std::cout<<endl;
         }
@@ -105,6 +105,8 @@ int main(int argc, char const *argv[])
     list.popElement();
     list.showList();
     list.deleteElement(8);
+    list.showList();
+    list.insertElement(0,100);
     list.showList();
     return 0;
 }
