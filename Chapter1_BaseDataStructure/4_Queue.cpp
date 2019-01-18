@@ -21,6 +21,9 @@ public:
     }
     bool insert(DataType data);
     DataType delElement();
+    int getCount(){
+        return count;
+    }
 };
 template <typename DataType> bool Queue<DataType>::insert(DataType data){
     if(count==maxSize){
@@ -39,15 +42,15 @@ template <typename DataType> DataType Queue<DataType>::delElement(){
     count--;
     return temp;
 }
-int main(){
-    Queue<int> queue=Queue<int> (6);
-    for (int i=0;i<=5;i++){
-        queue.insert(i);
-    }
-    cout<<queue.delElement()<<endl;
-    queue.insert(8);
-    queue.insert(9);
-    for (int i=0;i<=5;i++){
-        cout<<queue.delElement()<<endl;
-    }
-}
+// int main(){
+//     Queue<int> queue=Queue<int> (6);
+//     for (int i=0;i<=5;i++){
+//         queue.insert(i);
+//     }
+//     cout<<queue.delElement()<<endl;
+//     queue.insert(8);
+//     queue.insert(9);
+//     for (int i=0;i<=5;i++){
+//         cout<<queue.delElement()<<endl;
+//     }
+// }
