@@ -8,3 +8,5 @@ This is my study about *Data Structure and Algorithm*. This book contains the ch
    5. [HashTable](https://github.com/lwsdegithub/The-Interest-Algorithm-C-/blob/master/Chapter1_BaseDataStructure/5_HashTable.cpp)
 2. Chapter2_TreeStructure
    1. [BinaryTree](https://github.com/lwsdegithub/The-Interest-Algorithm-C-/blob/master/Chapter2_TreeStructure/1_BinaryTree.cpp)
+5. Chapter5_SortAlgorithm
+   4. [TwoWayMergeSort](https://github.com/lwsdegithub/The-Interest-Algorithm-C-/blob/master/Chapter5_SortAlgorithm/4_TwoWayMergeSort.cpp)
