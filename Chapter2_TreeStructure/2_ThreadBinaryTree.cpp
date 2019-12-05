@@ -1,3 +1,4 @@
+//the enconding is "GB2312"
 #include<iostream>
 using namespace std;
 template<typename DataType> class ThreadBTNode{
